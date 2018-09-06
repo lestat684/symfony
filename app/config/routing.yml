@@ -1,0 +1,9 @@
+#app:
+#    resource: '@AppBundle/Controller/'
+#    type: annotation
+feedback:
+    path: /feedback
+    defaults: { _controller: AppBundle:Default:feedback }
+home:
+    path: /
+    defaults: { _controller: AppBundle:Default:index }
